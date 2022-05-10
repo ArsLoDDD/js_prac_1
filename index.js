@@ -6,7 +6,7 @@ while (true) {
   if (isNaN(inputNumber)) {
     alert('Wrong type')
   } else{
-      if (inputNumber === SECRET_NUMBER && inputNumber <= 10 && inputNumber >= 1) {
+      if (inputNumber === SECRET_NUMBER) {
       alert("Congratulations");
       alert("You number of try " + countTry);
       break;
